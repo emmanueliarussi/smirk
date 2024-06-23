@@ -1,6 +1,6 @@
 # SMIRK: 3D Facial Expressions through Analysis-by-Neural-Synthesis
 
-This repository is the official implementation of the [CVPR 2024](https://cvpr.thecvf.com) paper [3D Facial Expressions through Analysis-by-Neural Synthesis](https://arxiv.org/abs/2404.04104).
+A fork of the official implementation of the [CVPR 2024](https://cvpr.thecvf.com) paper [3D Facial Expressions through Analysis-by-Neural Synthesis](https://arxiv.org/abs/2404.04104).
 
 
 <p align="center">
@@ -57,6 +57,12 @@ and one that can be used to test the model on a video,
 
 ```bash
 python demo_video.py --input_path samples/dafoe.mp4 --out_path results/ --checkpoint pretrained_models/SMIRK_em1.pt --crop --render_orig
+```
+
+To Run the optimization-based demo, you can use the following command:
+
+```bash
+python demo_video_optimized.py --input_path parent_dir_of_videos --out_path results/ --checkpoint pretrained_models/SMIRK_em1.pt
 ```
 
 ## Training
