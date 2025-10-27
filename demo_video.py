@@ -216,4 +216,3 @@ if __name__ == '__main__':
     cap.release()
     cap_out.release()
 
-
