@@ -1,0 +1,3 @@
+[submodule "MICA"]
+	path = MICA
+	url = https://github.com/Zielon/MICA
