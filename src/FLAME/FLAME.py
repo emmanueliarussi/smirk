@@ -16,13 +16,15 @@
 import torch
 import torch.nn as nn
 import numpy as np
+
 np.bool = np.bool_
 np.int = np.int_
-np.float = np.float_
-np.complex = np.complex_
+np.float = np.float64
+np.complex = np.complex128
 np.object = np.object_
-np.unicode = np.unicode_
+np.unicode = np.str_
 np.str = np.str_
+
 import pickle
 import torch.nn.functional as F
 
